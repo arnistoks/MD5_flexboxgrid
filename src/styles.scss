@@ -1,3 +1,98 @@
-body {
-  background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+@import 'reset.scss';
+
+@import 'default.scss';
+
+@media screen and (max-width: 767px) {
+
+  .navigation {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .navigation__burger {
+    display: block;
+  }
+
+  .navigation__href {
+    display: none;
+  }
+
+  .header__logo {
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+
+  .header__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .header__paragraph {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .recent-post__box {
+    margin: 10px;
+  }
+
+  .recent-posts__href {
+    display: none;
+  }
+
+  .recent-posts__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+  }
+
+  .recent-posts__nav {
+    justify-content: center;
+  }
+
+  .recent-posts__subtitle {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .recent-posts__header {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container__featured-works {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .featured-works__title {
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .featured--works__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .featured-works__year {
+    font-size: 16px;
+  }
+
+  .featured-works__header {
+    font-size: 16px;
+    line-height: 24px; 
+  }
+
+  .featured-works__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
+
